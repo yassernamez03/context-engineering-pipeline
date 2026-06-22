@@ -5,7 +5,9 @@ description = "Context Engineering Pipeline using Pixeltable and Pixelagent"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "jupyter>=1.1.1",
     "lancedb>=0.25.3",
+    "notebook>=7.6.0",
     "openai>=2.8.1",
     "pixelagent>=0.1.5",
     "pixeltable>=0.4.24",
